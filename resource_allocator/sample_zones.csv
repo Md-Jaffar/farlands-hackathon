@@ -1,0 +1,5 @@
+zone_id,priority_score,estimated_travel_minutes,reason,data_label
+ZONE_B,84.5,12.0,Dense neighbourhood with cut-off road,ILLUSTRATIVE
+ZONE_C,71.0,18.0,Village near district hospital,ILLUSTRATIVE
+ZONE_D,58.0,25.0,Low-lying riverfront area,ILLUSTRATIVE
+ZONE_A,14.0,8.0,Empty agricultural field,ILLUSTRATIVE

@@ -1,0 +1,30 @@
+[
+  {
+    "zone_id": "ZONE_B",
+    "priority_score": 84.5,
+    "estimated_travel_minutes": 12.0,
+    "reason": "Dense neighbourhood with cut-off road",
+    "data_label": "ILLUSTRATIVE"
+  },
+  {
+    "zone_id": "ZONE_C",
+    "priority_score": 71.0,
+    "estimated_travel_minutes": 18.0,
+    "reason": "Village near district hospital",
+    "data_label": "ILLUSTRATIVE"
+  },
+  {
+    "zone_id": "ZONE_D",
+    "priority_score": 58.0,
+    "estimated_travel_minutes": 25.0,
+    "reason": "Low-lying riverfront area",
+    "data_label": "ILLUSTRATIVE"
+  },
+  {
+    "zone_id": "ZONE_A",
+    "priority_score": 14.0,
+    "estimated_travel_minutes": 8.0,
+    "reason": "Empty agricultural field",
+    "data_label": "ILLUSTRATIVE"
+  }
+]

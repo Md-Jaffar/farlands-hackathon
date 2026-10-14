@@ -1,0 +1,15 @@
+{
+  "timestamp_format": "%Y-%m-%d %H:%M:%S",
+  "expected_interval_minutes": 15,
+  "gap_factor": 1.5,
+  "stale_minutes": 60,
+  "water_level_min_m": 0.0,
+  "water_level_max_m": 15.0,
+  "rainfall_min_mm": 0.0,
+  "rainfall_max_mm": 200.0,
+  "max_rate_m_per_hour": 1.5,
+  "jump_recovery_tolerance_m": 0.15,
+  "accept_level_after": 3,
+  "frozen_tolerance": 0.001,
+  "frozen_min_repeats": 6
+}

@@ -1,0 +1,25 @@
+timestamp,sensor_id,zone_id,water_level,rainfall,status,reason,is_usable,rule
+2016-08-11 12:00:00,S_TEST_1,ZONE_A,2.1,1.0,OK,Normal reading: water_level 2.1 m within expected bounds and rate limits,True,NONE
+2016-08-11 12:15:00,S_TEST_1,ZONE_A,18.5,1.2,SUSPECT,Out of range: water_level 18.5 m exceeds maximum bound water_level_max_m (15.0 m),False,OUT_OF_RANGE
+2016-08-11 12:30:00,S_TEST_1,ZONE_A,2.15,1.5,OK,Normal reading: water_level 2.15 m within expected bounds and rate limits,True,NONE
+2016-08-11 12:45:00,S_TEST_1,ZONE_A,5.55,1.5,SUSPECT,Sudden jump: +3.40 m in 15 min (13.60 m/hour) exceeds the 1.5 m/hour limit,False,SUDDEN_JUMP
+2016-08-11 13:00:00,S_TEST_1,ZONE_A,2.18,1.0,OK,Normal reading: water_level 2.18 m within expected bounds and rate limits,True,NONE
+2016-08-11 13:15:00,S_TEST_1,ZONE_A,,0.5,MISSING,Missing water_level value (empty cell),False,MISSING_VALUE
+2016-08-11 13:30:00,S_TEST_1,ZONE_A,,0.5,MISSING,Invalid non-numeric water_level value 'ERR',False,INVALID_VALUE
+2016-08-11 13:45:00,S_TEST_1,ZONE_A,2.22,0.0,OK,Normal reading: water_level 2.22 m within expected bounds and rate limits,True,NONE
+2016-08-11 14:00:00,S_TEST_1,ZONE_A,2.25,0.0,OK,Normal reading: water_level 2.25 m within expected bounds and rate limits,True,NONE
+2016-08-11 14:00:00,S_TEST_1,ZONE_A,2.25,0.0,SUSPECT,Duplicate timestamp 2016-08-11 14:00:00 for sensor S_TEST_1,False,DUPLICATE_TIMESTAMP
+2016/08/11 99:99:99,S_TEST_1,ZONE_A,2.26,0.0,SUSPECT,Unparseable timestamp '2016/08/11 99:99:99': does not match expected format '%Y-%m-%d %H:%M:%S',False,BAD_TIMESTAMP
+2016-08-11 12:00:00,S_TEST_2,ZONE_C,3.0,0.0,OK,Normal reading: water_level 3.0 m within expected bounds and rate limits,True,NONE
+2016-08-11 12:15:00,S_TEST_2,ZONE_C,3.0,0.0,OK,Normal reading: water_level 3.0 m within expected bounds and rate limits,True,NONE
+2016-08-11 12:30:00,S_TEST_2,ZONE_C,3.0,0.0,OK,Normal reading: water_level 3.0 m within expected bounds and rate limits,True,NONE
+2016-08-11 12:45:00,S_TEST_2,ZONE_C,3.0,0.0,OK,Normal reading: water_level 3.0 m within expected bounds and rate limits,True,NONE
+2016-08-11 13:00:00,S_TEST_2,ZONE_C,3.0,0.0,OK,Normal reading: water_level 3.0 m within expected bounds and rate limits,True,NONE
+2016-08-11 13:15:00,S_TEST_2,ZONE_C,3.0,0.0,SUSPECT,Frozen sensor: water_level repeated at 3.0 m for 6 consecutive readings (limit 6),False,FROZEN
+2016-08-11 13:30:00,S_TEST_2,ZONE_C,3.05,0.0,OK,Normal reading: water_level 3.05 m within expected bounds and rate limits,True,NONE
+2016-08-11 13:45:00,S_TEST_2,ZONE_C,,,MISSING,Missing expected reading at 2016-08-11 13:45:00 (gap of 30 min exceeds 22.5 min threshold),False,MISSING_ROW
+2016-08-11 14:00:00,S_TEST_2,ZONE_C,3.1,0.0,OK,Normal reading: water_level 3.1 m within expected bounds and rate limits,True,NONE
+2016-08-11 12:00:00,S_TEST_3,ZONE_D,1.5,0.0,OK,Normal reading: water_level 1.5 m within expected bounds and rate limits,True,NONE
+2016-08-11 12:15:00,S_TEST_3,ZONE_D,1.5,0.0,OK,Normal reading: water_level 1.5 m within expected bounds and rate limits,True,NONE
+2016-08-11 12:30:00,S_TEST_3,ZONE_D,1.5,0.0,OK,Normal reading: water_level 1.5 m within expected bounds and rate limits,True,NONE
+2016-08-11 14:00:00,S_TEST_3,ZONE_D,,,STALE,Stale sensor: no update since 2016-08-11 12:30:00 (90 min elapsed exceeds 60 min limit),False,STALE_SENSOR

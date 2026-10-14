@@ -1,0 +1,4 @@
+name: "assam_brahmaputra_2016"
+aio:
+  file: Sample_Data/aoi.geojson
+  crs: EPSG:4326

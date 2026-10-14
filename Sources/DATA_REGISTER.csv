@@ -1,0 +1,10 @@
+Item,Official URL,Data Type,Region,Date,Format,Licence,Attribution,Access Date,Provenance,Limitations
+aoi.geojson,https://github.com/cloudtostreet/Sen1Floods11,Vector (Polygon),Assam India,2016-08-12,GeoJSON,CC BY 4.0,Cloud to Street,2026-10-14,PUBLIC_RECORDED,Covers bbox for Assam demo chips
+roads.gpkg,https://www.openstreetmap.org,Vector (Lines),Assam India,2026-10-14,GeoPackage (roads),ODbL,OpenStreetMap contributors,2026-10-14,PUBLIC_RECORDED,OSM road network clipped to AOI
+facilities.geojson,https://www.openstreetmap.org,Vector (Points),Assam India,2026-10-14,GeoJSON,ODbL,OpenStreetMap contributors,2026-10-14,PUBLIC_RECORDED,Dedicated emergency shelters sparse in OSM
+boundaries.geojson,https://www.openstreetmap.org,Vector (Polygons),Assam India,2026-10-14,GeoJSON,ODbL,OpenStreetMap contributors,2026-10-14,PUBLIC_RECORDED,Administrative wards/villages
+rivers.geojson,https://www.openstreetmap.org,Vector (Lines),Assam India,2026-10-14,GeoJSON,ODbL,OpenStreetMap contributors,2026-10-14,PUBLIC_RECORDED,Brahmaputra river and tributaries
+population.tif,https://ghsl.jrc.ec.europa.eu/ or WorldPop,Raster (Counts),Assam India,2016-01-01,GeoTIFF (EPSG:4326),CC BY 4.0,WorldPop / GEE,2026-10-14,PUBLIC_RECORDED,Population as people per pixel (counts)
+dem.tif,https://spacedata.copernicus.eu/,Raster (Elevation),Assam India,2021-01-01,GeoTIFF (EPSG:4326),Copernicus free access,Copernicus DEM GLO-30 / GEE,2026-10-14,PUBLIC_RECORDED,30m resolution with defined nodata value
+demo_rainfall.csv,https://open-meteo.com/,Time Series (CSV),Assam India,2016-08-11 to 2016-08-12,CSV,CC BY 4.0,Open-Meteo Historical API,2026-10-14,PUBLIC_RECORDED,Hourly rainfall in mm
+observed_flood_event.geojson,https://github.com/cloudtostreet/Sen1Floods11,Vector (Polygon),Assam India,2016-08-12,GeoJSON,CC BY 4.0,Cloud to Street Sen1Floods11,2026-10-14,PUBLIC_RECORDED,Derived from LabelHand flood mask

@@ -1,0 +1,42 @@
+[
+  {
+    "team_id": "TEAM_01",
+    "assigned_zone_id": "ZONE_B",
+    "priority_score": 84.5,
+    "assignment_status": "ASSIGNED",
+    "reason": "Highest-priority zone (rank 1 of 4, score 84.5) | Zone note: Dense neighbourhood with cut-off road",
+    "available_team_count": 3,
+    "rank": 1,
+    "source": "priority_first_baseline"
+  },
+  {
+    "team_id": "TEAM_02",
+    "assigned_zone_id": "ZONE_C",
+    "priority_score": 71.0,
+    "assignment_status": "ASSIGNED",
+    "reason": "Next-highest priority zone (rank 2 of 4, score 71.0) | Zone note: Village near district hospital",
+    "available_team_count": 3,
+    "rank": 2,
+    "source": "priority_first_baseline"
+  },
+  {
+    "team_id": "TEAM_03",
+    "assigned_zone_id": "ZONE_D",
+    "priority_score": 58.0,
+    "assignment_status": "ASSIGNED",
+    "reason": "Next-highest priority zone (rank 3 of 4, score 58.0) | Zone note: Low-lying riverfront area",
+    "available_team_count": 3,
+    "rank": 3,
+    "source": "priority_first_baseline"
+  },
+  {
+    "team_id": null,
+    "assigned_zone_id": "ZONE_A",
+    "priority_score": 14.0,
+    "assignment_status": "WAITING",
+    "reason": "Waiting: all 3 teams are on higher-priority zones (rank 4 of 4) | Zone note: Empty agricultural field",
+    "available_team_count": 3,
+    "rank": 4,
+    "source": "priority_first_baseline"
+  }
+]

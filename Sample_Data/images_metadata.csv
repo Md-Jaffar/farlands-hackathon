@@ -1,0 +1,5 @@
+file-name	source	licence	capture_data	resolution	format	pixel_labels_available	georeferenced	crs
+India_324254_S1Hand	Sen1Floods11	CC BY 4.0	12-08-2016	10m	GeoTIFF	TRUE	TRUE	EPSG:4326
+India_500266_S1Hand	Sen1Floods11	CC BY 4.0	12-08-2016	10m	GeoTIFF	TRUE	TRUE	EPSG:4327
+India_1050276_S1Hand	Sen1Floods11	CC BY 4.0	12-08-2016	10m	GeoTIFF	TRUE	TRUE	EPSG:4328
+India_1072277_S1Hand	Sen1Floods11	CC BY 4.0	12-08-2016	10m	GeoTIFF	TRUE	TRUE	EPSG:4329
