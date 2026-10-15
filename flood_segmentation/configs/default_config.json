@@ -1,0 +1,9 @@
+{
+  "model_architecture": "nvidia/mit-b3",
+  "num_labels": 2,
+  "image_size": 512,
+  "vv_water_threshold_db": -16.5,
+  "vh_water_threshold_db": -23.0,
+  "confidence_threshold": 0.5,
+  "ignore_index": -1
+}

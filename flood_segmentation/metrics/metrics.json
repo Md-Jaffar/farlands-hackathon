@@ -1,0 +1,38 @@
+{
+  "model_architecture": "nvidia/mit-b3",
+  "dataset": "Sen1Floods11 (Assam, India - S1Hand / LabelHand)",
+  "input_channels": [
+    "VV_dB",
+    "VH_dB",
+    "VV_minus_VH_dB"
+  ],
+  "resolution": [
+    512,
+    512
+  ],
+  "ignore_index": -1,
+  "train_chips": [
+    "India_1050276_S1Hand.tif",
+    "India_1072277_S1Hand.tif",
+    "India_324254_S1Hand.tif"
+  ],
+  "held_out_val_chips": [
+    "India_500266_S1Hand.tif"
+  ],
+  "epochs_trained": 1,
+  "device": "cpu",
+  "metrics": {
+    "flood_iou": 0.1779,
+    "dice_f1": 0.302,
+    "precision": 0.1949,
+    "recall": 0.6703,
+    "pixel_accuracy": 0.5488,
+    "confusion_matrix": {
+      "tp": 25592,
+      "fp": 105694,
+      "fn": 12589,
+      "tn": 118266
+    }
+  },
+  "provenance": "MODEL_DERIVED"
+}

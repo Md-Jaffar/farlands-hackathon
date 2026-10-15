@@ -1,0 +1,8 @@
+﻿.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tif
+flood_segmentation/model/best_model/*.safetensors
+flood_segmentation/model/best_model/*.bin
